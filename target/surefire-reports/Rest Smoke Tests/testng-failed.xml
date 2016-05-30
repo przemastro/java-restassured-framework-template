@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Rest Smoke Tests]">
+  <listeners>
+    <listener class-name="com.testing.Reporter"/>
+  </listeners>
+  <test name="Rest Smoke Tests(failed)">
+    <classes>
+      <class name="com.testing.Tests.REST.RestForm">
+        <methods>
+          <include name="createBuild"/>
+          <include name="uploadPDFFile" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testing.Tests.REST.RestForm -->
+    </classes>
+  </test> <!-- Rest Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Rest Smoke Tests] -->

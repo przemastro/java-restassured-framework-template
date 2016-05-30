@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest Smoke Tests" verbose="1">
+    <listeners>
+        <listener class-name="com.testing.Reporter"></listener>
+    </listeners>
+
+    <test name="Rest Smoke Tests" preserve-order="true">
+        <classes>
+            <class name="com.testing.Tests.REST.RestForm">
+                <methods>
+                    <include name="saveNewRestForm"></include>
+                    <!--<include name="saveWrongRestForm"></include>-->
+                    <!--<include name="uploadPDFFile"></include>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

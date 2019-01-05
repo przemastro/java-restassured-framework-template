@@ -1,7 +1,7 @@
-# javaRestFramework
+# JavaRestFramework
 Java + TestNG + RestAssured + DynamicReports
 
-This is a demo version of a framework I used for Rest API testing during development of Compliance project for Barclays Investment Bank. 
+This is a demo version of framework I used for Rest API testing during development of Compliance project for Barclays Investment Bank. 
 Created in the Page Object pattern style. It is prepared for https://github.com/przemastro/testApp.git application but obviously can be addapted to any application which uses rest api.
 It consists of following:
 

@@ -1,10 +1,17 @@
-# JavaRestFramework
-[![GitHub issues](https://img.shields.io/github/issues/przemastro/java-rest-assured-framework)](https://github.com/przemastro/java-rest-assured-framework/issues)
+# JavaRestAssured Test Framework
+[![GitHub forks](https://img.shields.io/github/forks/przemastro/java-rest-assured-framework)](https://github.com/przemastro/java-rest-assured-framework/network)
+[![GitHub stars](https://img.shields.io/github/stars/przemastro/java-rest-assured-framework)](https://github.com/przemastro/java-rest-assured-framework/stargazers)
+[![Java version](https://img.shields.io/github/stars/przemastro/java-rest-assured-framework)](https://img.shields.io/badge/Java-1.8-%23b07219)
 
-Java + TestNG + RestAssured + DynamicReports
-
+# Features
 This is a demo version of framework I used for Rest API testing during development of Compliance project for Barclays Investment Bank. 
 Created in the Page Object pattern style. It is prepared for https://github.com/przemastro/testApp.git application but obviously can be addapted to any application which uses rest api.
+Java + TestNG + RestAssured + DynamicReports
+
+# Installation
+
+# Usage
+
 It consists of following:
 
 Java classes

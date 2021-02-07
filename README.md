@@ -11,7 +11,6 @@ Created in the Page Object pattern style.
 1. API tests - Using RestAssured and TestNg frameworks
 2. Dynamic Reports - Reporting library
 
-
 # Installation
 
 1. Open repo in your favourite IDE (I use Intellij because of built-in Maven) and set Project SDK to "java version 1.8.0_*"
@@ -23,15 +22,13 @@ Run maven build
 
 # Usage
 
-Write test
-
-Example Test with Post method
+Example Test with POST method
 
         restFormLandingPage = new RestFormLandingPage()
                 .postMethod(context, "example.json");
 
 
-Example Post method body
+Example POST method body
 
         expect()
                 .statusCode(201)

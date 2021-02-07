@@ -1,5 +1,6 @@
 # JavaRestFramework
-/github/pipenv/locked/dependency-version/:user/:repo/:kind?/:packageName
+[![GitHub issues](https://img.shields.io/github/issues/przemastro/java-rest-assured-framework)](https://github.com/przemastro/java-rest-assured-framework/issues)
+
 Java + TestNG + RestAssured + DynamicReports
 
 This is a demo version of framework I used for Rest API testing during development of Compliance project for Barclays Investment Bank. 

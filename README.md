@@ -18,8 +18,13 @@ Dynamic Reports
 
 Java + TestNG + RestAssured + DynamicReports
 
-# Installation
+# Installation (Please inastall JDK8 before start)
+
+1. Open repo in your favourite IDE (I use Intellij because of built-in Maven) and set Project SDK to "java version 1.8.0_*"
+2. Right click on pom.xml and set MAVEN project, you might need to re-import maven dependencies
 
 # Usage
+
+Run maven build
 
 
